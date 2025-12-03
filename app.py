@@ -131,7 +131,7 @@ def create_docx(md_text: str, pages_text: List[str], output_dir: Path,
     return docx_path
 
 def main():
-    st.title("📄 Mistral OCR - PDF to Markdown/DOCX")
+    st.title("📄 Suvichaar Doc Intelligence Platform Test")
     st.markdown("Upload a PDF file to extract text and convert it to Markdown and DOCX formats.")
     
     # Load configuration
