@@ -70,7 +70,7 @@ def process_pdf(pdf_bytes: bytes, config: dict, title: Optional[str] = None,
     }
     
     # Call OCR API
-    with st.spinner("Processing PDF with Mistral OCR..."):
+    with st.spinner("Processing PDF with  Doc Intelligence..."):
         resp = post_ocr_with_config(payload, config)
     
     # Unwrap response container
